@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    border-style: dashed;
+    min-height: 96vh;
+
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 4em;
+}
+.clickable, li{
+    list-style: none;
+    padding: 20px;
+}
+.clickable, li, a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+a:hover{
+    background-color: beige;
+    transition: 1s;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.little-list{
+    font-size: 0.8em;
+}
+
+.little-list, li{
+    list-style: none;
+    padding: 20px;
+}
+
